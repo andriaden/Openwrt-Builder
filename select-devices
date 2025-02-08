@@ -63,10 +63,9 @@ select device in "${devices[@]}"; do
         
         echo -e "\nSelect OpenWrt Version:"
         versions=(
-            "24.10.0-rc4"
-            "24.10.0-rc5"
             "24.10.0-rc6"
             "24.10.0-rc7"
+            "24.10.0"
             "23.05.5"
             "23.05.4"
             "23.05.3"
